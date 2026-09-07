@@ -1,2 +1,2 @@
 # homebrew-tap
-Homebrew tap for lemtoc-labs projects
+Homebrew tap for xrryx-labs projects
