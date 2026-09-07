@@ -1,2 +1,2 @@
 # homebrew-tap
-Homebrew tap for xrryx-labs projects
+Homebrew tap for xlastz-labs projects
