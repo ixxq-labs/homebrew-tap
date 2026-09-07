@@ -1,24 +1,24 @@
 class Nova < Formula
   desc "A fast, customizable zsh prompt renderer."
-  homepage "https://github.com/lemtoc-labs/nova"
+  homepage "https://github.com/xrryx-labs/nova"
   version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lemtoc-labs/nova/releases/download/v0.3.1/nova-aarch64-apple-darwin.tar.xz"
+      url "https://github.com/xrryx-labs/nova/releases/download/v0.3.1/nova-aarch64-apple-darwin.tar.xz"
       sha256 "67ed91589c0bb482c5ec47e9f3614636e6a37cced4d7e8f17ed57f86bb9db145"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lemtoc-labs/nova/releases/download/v0.3.1/nova-x86_64-apple-darwin.tar.xz"
+      url "https://github.com/xrryx-labs/nova/releases/download/v0.3.1/nova-x86_64-apple-darwin.tar.xz"
       sha256 "3e957568f06cab9b3885451a1a362bd672eba70e6962ec701e9bc47e6bbffb5d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/lemtoc-labs/nova/releases/download/v0.3.1/nova-aarch64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/xrryx-labs/nova/releases/download/v0.3.1/nova-aarch64-unknown-linux-gnu.tar.xz"
       sha256 "bdeb389eddc107d2fe145207a891bfac140905c8e7092342d42ca3ed922ff09d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lemtoc-labs/nova/releases/download/v0.3.1/nova-x86_64-unknown-linux-gnu.tar.xz"
+      url "https://github.com/xrryx-labs/nova/releases/download/v0.3.1/nova-x86_64-unknown-linux-gnu.tar.xz"
       sha256 "eaf52138d871bce90be1b57c4d919984a3c0d0e5c5b87c738e85f6135271884c"
     end
   end
